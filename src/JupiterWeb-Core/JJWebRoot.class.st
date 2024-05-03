@@ -10,6 +10,12 @@ JJWebRoot class >> applicationName [
 ]
 
 { #category : #accessing }
+JJWebRoot class >> configureApplication: anApplication [
+	super configureApplication: anApplication.
+	anApplication preferenceAt: #pathToRepository put: '/opt/git/JupiterJones/JupiterWeb'
+]
+
+{ #category : #accessing }
 JJWebRoot class >> fileLibraryClass [
 	^ JJFileLibrary
 ]
