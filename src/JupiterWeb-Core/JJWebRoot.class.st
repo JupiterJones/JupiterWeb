@@ -21,6 +21,11 @@ JJWebRoot class >> fileLibraryClass [
 ]
 
 { #category : #accessing }
+JJWebRoot >> brandImageUrl [
+	^ JJFileLibrary / #brandPng
+]
+
+{ #category : #accessing }
 JJWebRoot >> windowTitle [
 	^ 'Jupiter Jones'
 ]
