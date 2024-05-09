@@ -21,6 +21,16 @@ JJWebRoot class >> fileLibraryClass [
 ]
 
 { #category : #accessing }
-JJWebRoot >> windowTitle [
+JJWebRoot class >> windowTitle [
 	^ 'Jupiter Jones'
+]
+
+{ #category : #accessing }
+JJWebRoot >> adminComponent [
+	^ self componentAt: #admin ifAbsentPut: [ JJAdmin parent: self ]
+]
+
+{ #category : #accessing }
+JJWebRoot >> initialComponent [
+	^ self adminComponent
 ]
