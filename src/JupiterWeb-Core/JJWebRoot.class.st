@@ -1,6 +1,6 @@
 Class {
 	#name : #JJWebRoot,
-	#superclass : #F4SRootComponent,
+	#superclass : #F4SAdminComponent,
 	#category : #'JupiterWeb-Core'
 }
 
