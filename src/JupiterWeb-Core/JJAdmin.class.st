@@ -1,5 +1,5 @@
 Class {
 	#name : #JJAdmin,
-	#superclass : #F4SAdminComponent,
+	#superclass : #F4SNavigationComponent,
 	#category : #'JupiterWeb-Core'
 }
